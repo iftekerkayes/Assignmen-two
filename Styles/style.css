@@ -35,5 +35,10 @@ h1{
     font-size: 24px;
     font-family: 'Lobster';
     border-radius: 10px;
+   
     
+}
+.watch-button .tv-link{
+    text-decoration: none;
+    color: black;
 }
