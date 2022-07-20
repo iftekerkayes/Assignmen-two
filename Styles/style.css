@@ -1,0 +1,39 @@
+/* -----------
+Desktop Views 
+-------------*/
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&display=swap');
+
+/* Basic Styles */
+
+body{
+    margin: 100px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/* Headers Styles */
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    padding: 80px;
+    
+}
+.watch-button{
+    height: 80px;
+    width: 200px;
+    background-color: deeppink;
+    font-size: 24px;
+    font-family: 'Lobster';
+    border-radius: 10px;
+    
+}
