@@ -8,7 +8,7 @@ Desktop Views
 /* Basic Styles */
 
 body{
-    margin: 100px;
+    
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
 }
@@ -22,16 +22,29 @@ h1{
 .top-banner{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #161616;
     color:white;
     border-radius: 15px;
     padding: 80px;
+    margin: 100px;
+    margin-bottom: 130px;
+    width: 1210px;
     
+    
+}
+.banner-info{
+    width: 100%;
+    height: 100%;
+}
+.banner-image,.player-image{
+    width: 581px;
+    height: 613px;
+
 }
 .watch-button{
     height: 80px;
     width: 200px;
-    background-color: Red;
+    background-color: pink;
     font-size: 24px;
     font-family: 'Lobster';
     border-radius: 10px;
@@ -41,4 +54,123 @@ h1{
 .watch-button .tv-link{
     text-decoration: none;
     color: black;
+} 
+
+
+
+/*-------------------
+ Main Content Styles 
+ --------------------*/
+ .main-content{
+    display: flex;
+    margin: 100px;
+    margin-bottom: 130px;
+ }
+ 
+ /* Side Menu Styles */
+ .navigation{
+    width: 200px;
+    height: 250px;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    
+ }
+ .nav-button{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    font-size: 24px;
+    font-family: 'Lobster';
+    border-radius: 10px;
+   
+    
+}
+.nav-button .tv-link{
+    text-decoration: none;
+    color: black;
+} 
+.current-page{
+    background-color: rgb(197, 30, 58);
+}
+
+/*--------------------
+Article(Blogs) Styles 
+----------------------*/
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:24px;
+    grid-row-gap:24px;
+    margin-left: 24px;
+    
+    
+    
+    
+}
+
+.blog{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blog-image{
+    width: 100%;
+}
+
+.transfer-button{
+    margin-left: 20px;
+}
+
+.blog-info {
+    padding:20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blog-icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*-------------
+Footer style 
+---------------*/
+.my-footer{
+    background-color: #161616;
+    color: white;
+    padding-top:80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+   
+    
+}
+.footer-heading{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-divider{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-menu,.footer-menu-link{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin: 30px;
+    font-size: 16px;
+    width: 100%;
+    
 }
