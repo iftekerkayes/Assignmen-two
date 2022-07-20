@@ -59,6 +59,14 @@ h1{
     color: black;
 } 
 
+/*-------------------
+ animination style 
+ --------------------*/
+ .banner-image,.player-image:hover{
+    transform: rotate(-360deg);
+    transition:transform 5s ease-in-out 2s;
+    
+ }
 
 
 /*-------------------
